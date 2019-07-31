@@ -1,0 +1,346 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+.bg-secondary { 
+
+    background:#373737!important;
+   
+}
+.bg-green {
+    background:#83a700!important
+    
+    
+}
+.custom-bg { 
+     background: url(../images/bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+    
+}
+
+.btn-green { 
+background:#bdd500!important;
+}
+.bg-gray { 
+background:#1f1f1f;
+
+}
+
+.bg-dark { 
+background:#000!important;
+
+}
+section#menu{ 
+ 
+    background: url(../images/ring.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+  
+}
+h1 {
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight:600;
+    text-transform:uppercase;
+
+
+}
+
+h2,h3,h4,h5,h6 {    font-family: 'Oswald', sans-serif;
+}
+
+h1.big { 
+font-size:4rem;
+
+}
+p { 
+
+font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+
+
+}
+
+p.lead { 
+
+font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+
+
+}
+
+
+header {
+  padding: 10rem 0 20rem;
+}
+
+
+section {
+  padding: 150px 0;
+}
+
+section#home {
+    padding-top:0;
+}
+
+section#about { 
+
+    padding-top:0;
+}
+section#location { 
+padding-bottom:0;
+}
+
+#mainNav { 
+
+min-height:90px;
+}
+
+.nav-link.active,.nav-link:hover { 
+    color:#bdd500!important;
+    border-bottom:2px solid #bdd500;
+    
+
+}
+
+img.logo { 
+    max-height:30px;
+}
+header.bg-primary { 
+       text-transform:uppercase; 
+
+    position:relative;
+  background: url(../images/pic.png) no-repeat bottom center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.title h1 { 
+    text-transform:uppercase;
+}
+small i { 
+padding-left:0;
+    padding-right:5px;
+}
+ i { 
+padding-left:1rem;
+    padding-right:1rem;
+}
+
+span.bg-text {
+    background:#bdd500;
+    padding:5px;
+    margin:0;
+    line-height:normal;
+}
+
+.rope { 
+    position:absolute;
+    background: url(../images/thread.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    bottom: 70px;
+    right: 0;
+    width: 100%;
+    height: 10px;
+
+
+}
+.schedule { 
+    
+    background: url(../images/schedule.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:absolute;
+    top:15rem;
+    right:15px;
+    width:100%;
+    height:180px;
+
+}
+.schedule h1 { 
+    padding-top:40px;
+
+}
+.schedule ul { 
+    padding:0;
+}
+.schedule ul li {
+    
+    list-style:none;
+}
+
+.price{
+    position:relative;
+    width:3rem;
+    height:2.5rem;
+    padding-bottom:10%;
+    background:#fff;
+    border-radius:50%;
+   
+    
+}
+.round-price{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    font-size: 12px;
+    color:#000;
+}
+.category-title { 
+    width:100%
+}
+
+h4.line {
+  width:98.5%;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+h4.line span {
+    background:#83a700;
+  position: relative;
+  z-index: 2;
+  padding-left: ..5em;
+}
+
+h4.line::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color:rgba(255, 255, 255, 0.2);
+    position: absolute;
+  left: 0;
+  bottom: .5em;
+}
+
+.map{ 
+    min-height:400px;
+
+    
+}
+
+.map iframe { 
+width:100%;
+
+}
+
+footer ul.nav li a { 
+color:rgba(255,255,255,.5);
+
+}
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.hours ul li {
+    
+    list-style:none;
+}
+.hours i {
+    padding-right:1rem;
+    
+}
+.copyright{
+    padding-left: 30px;
+}
+
+@media (max-width: 575.98px) {
+   header {
+  padding: 10rem 0 15rem;
+}
+    .schedule { 
+        top:5rem;
+        width:70%;
+    }
+    .rope { 
+        bottom:150px;
+    }
+
+}
+
